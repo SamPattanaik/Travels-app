@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel+Decorative:wght@700&family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel+Decorative:wght@700&family=Crimson+Text:wght@600&family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel+Decorative:wght@700&family=Crimson+Text:wght@600&family=Domine:wght@700&family=Heebo&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    height: 1100px;
+    width: 100%;
+
+}
+.nav-1{
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
+.nav-2{
+    position: absolute;
+    left: 415px;
+    top: 10px;
+}
+.nav-3{
+    position: absolute;
+    left: 450px;
+    top: 10px;
+}
+.nav-4 {
+    position: absolute;
+    right: 115px;
+    top: 10px; 
+}
+.nav-4 svg{
+    margin-right: 40px;
+    /* right: 200px; */
+}
+.nav-4 a{
+    color: rgb(106, 184, 5);
+}
+.nav-bar{
+    position: fixed;
+    width: 80%;
+    height: 100px;
+    background-color: white;
+    left: 150px;
+    top: 50px;
+    z-index: 1000;
+    box-shadow: 0px 8px 15px 1px;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 5px;
+}
+.carousel-control-next-icon{
+    background-color: black;
+    border-radius: 5px;
+}
+.slider{
+    position: absolute;
+    top: 100px;
+}
+.container-fluid #navbar-brand{
+    font-size: 40px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    font-weight: 700;
+}
+.container-fluid #nav-linkactive{
+    position: absolute;
+    left: 700px;
+    font-weight: 600;
+    color: black;
+    font-size: large;
+    top: 25px;
+}
+.container-fluid #nav-link1{
+    position: absolute;
+    left: 790px; 
+    font-weight: 600;
+    color: black;  
+    font-size: large;
+    top: 25px;
+}
+.container-fluid #nav-link2{
+    position: absolute;
+    left: 880px;
+    font-weight: 600; 
+    color: black;  
+    font-size: large;
+    top: 25px;
+}
+.container-fluid #nav-link3{
+    position: absolute;
+    left: 985px;
+    font-weight: 600;  
+    color: black; 
+    font-size: large;
+    top: 25px;
+}
+.container-fluid #nav-link4{
+    position: absolute;
+    left: 1095px; 
+    font-weight: 600;  
+    color: black;
+    font-size: large;
+    top: 25px;
+}
+#navbar-brand::after{
+    content: "ER";
+    color: rgb(106, 184, 5);
+}
+#nav-linkactive:hover{
+    transition: all 0.5s ease-out;
+    color: rgb(106, 184, 5);
+}
+#nav-link1:hover{
+    transition: all 0.5s ease-out;
+    color: rgb(106, 184, 5);
+}
+#nav-link2:hover{
+    transition: all 0.5s ease-out;
+    color: rgb(106, 184, 5);
+}
+#nav-link3:hover{
+    transition: all 0.5s ease-out;
+    color: rgb(106, 184, 5);
+}
+#nav-link4:hover{
+    transition: all 0.5s ease-out;
+    color: rgb(106, 184, 5);
+}
+.booking{
+    position: relative;
+    top: 500px;
+    left: 730px;
+    scale: 1.5;  
+    width: fit-content;
+}
+.booking button{
+    background-color: rgb(106, 184, 5);
+    padding: 5px;
+    border: 1px rgb(106, 184, 5);
+}
+.text h3{
+    font-size: 25px;
+    left: 660px;
+    top: 250px;
+    position: absolute;
+    color: azure;
+    font-weight: 700;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.text h1{
+    position: absolute;
+    top: 280px;
+    font-size: 80px;
+    left: 335px;
+    width: 60%;
+    font-weight: 650;
+    color: azure;
+    text-align: center;
+    width: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: letter 2.5s steps(50) infinite;
+}
+.text h2{
+    position: absolute;
+    top: 375px;
+    font-size: 80px;
+    left: 335px;
+    width: 60%;
+    font-weight: 650;
+    color: azure;
+    text-align: center;
+    width: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: letter 2.5s steps(50) infinite;
+}
+@keyframes letter {
+    from{
+        width: 0%;
+        left: 740px;
+        
+    }
+    to{
+        width: 70%;
+        left: 250px;
+        
+    }
+}
+.carousel-inner{
+    opacity: 0.5;
+}
+.slider{
+    background-color: black;
+}
+.nav-bar2{
+    position: absolute;
+    top: 810px;
+    left: 150px;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 8px 15px 1px;
+    display: flex;
+    justify-content: center;  
+    justify-content: space-around;
+}
+.nav-bar2 input{
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-bar2 select{
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+.submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about{
+    position: relative;
+    height: 800px ;
+    width: 100%;
+}
+.traveller img{
+    height: 650px;
+    width: 550px;
+    position: relative;
+    top: 180px;
+    left: 150px;
+}
+.about-us{
+    background-color: azure;
+    height: 550px;
+    width: 800px;
+    position: relative;
+    left: 570px;
+    top: -420px;
+}
+.about-us h4{
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    color: rgb(106, 184, 5);
+    font-family: 'Crimson Text', sans-serif; 
+    font-size: 25px;
+}
+.about-us h2{
+    position: absolute;
+    left: 50px;
+    font-family: 'Domine', sans-serif; 
+    top: 55px;
+    font-size: 50px;
+    width: 80%;
+}
+.about-us p{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    width: 85%;
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-us img{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 245px;
+    left: 30px;
+    margin: 20px;  
+}
+.about-us button{
+    background-color: rgb(106, 184, 5);
+    /* padding: 5px; */
+    border: 1px rgb(106, 184, 5);
+    top: 480px;
+    position: absolute;
+    left: 50px;
+}
+.content{
+    position: relative;
+    top: 80px;
+    height: 200px;
+    width: 94.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    top: 2px;
+    width: 110px;
+    height: 110px;
+    border: 2px solid;
+    left: 20px;
+    position: relative;
+    background-color: rgb(106, 184, 5);
+}
+.first svg{
+    margin: 30px;
+    color: azure;
+}
+.text1{
+    width: 18%;
+    position: relative;
+    left: 10px;
+}
+.text1 h4{
+    font-size: 22.4px;
+    font-family: 'Cinzel Decorative', sans-serif;
+    width: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(20) infinite;
+}
+.second{
+    top: 2px;
+    width: 110px;
+    height: 110px;
+    border: 2px solid;
+    position: relative;
+    background-color: rgb(106, 184, 5);
+}
+.second svg{
+    margin: 30px;
+    color: azure;
+}
+.text2{
+    width: 24%;
+    position: relative;
+    left: -5px;
+}
+.text2 h4{
+    font-size: 22.4px;
+    font-family: 'Cinzel Decorative', sans-serif;
+    width: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(20) infinite;
+}
+.third{
+    top: 2px;
+    width: 110px;
+    height: 110px;
+    border: 2px solid;
+    position: relative;
+    background-color: rgb(106, 184, 5);
+    left: -20px;
+}
+.third svg{
+    margin: 30px;
+    color: azure;
+}
+.text3{
+    width: 24%;
+    position: relative;
+    left: -25px;
+}
+.text3 h4{
+    font-size: 22.4px;
+    font-family: 'Cinzel Decorative', sans-serif;
+    width: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(20) infinite;
+}
+@keyframes typing {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+.arrow{
+    position: fixed;
+    height: 45px;
+    width: 38px;
+    background-color: rgb(106, 184, 5);
+    margin-right: 20px;
+    margin-top: 65px;
+    right: -8px;
+    top: 500px;
+}
+.arrow svg{
+    margin: 7px;
+    color: azure;
+}
+.services{
+    top: 150px;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.card {
+    width: 33%;
+    top: 120px;
+    text-align: center;
+    margin: 60px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);  
+}
+.card img {
+  width: 60px;
+  margin: 30px;
+}
+.card h3{
+    font-family: 'Cinzel Decorative', sans-serif;
+    margin: 20px;
+}
+.card p{
+    margin: 10px;
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-icon {
+  background: rgb(89, 151, 7);
+}
+.packages{
+    top: 300px;
+    position: relative;
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.package{
+    margin-top: 180px;
+    height: 600px;
+    width: 30%;
+}
+.package img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 130px;
+    margin-top: 50px;
+    animation: jump 2s ease-in infinite alternate;
+}
+@keyframes jump {
+    from{
+        margin-top: 50px;
+    }
+    to{
+        margin-top: 15px;
+    }   
+}
+.place1 h2{
+    position: absolute;
+    top: 470px;
+    left: 55px;
+    font-size: 25px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.place1 p{
+    position: absolute;
+    top: 515px;
+    left: 37px;
+    width: 28%;
+    text-align: center;
+}
+.place2 h2{
+    position: absolute;
+    top: 470px;
+    left: 610px;
+    font-size: 25px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.place2 p{
+    position: absolute;
+    top: 515px;
+    left: 535px;
+    width: 28%;
+    text-align: center;
+}
+.place3 h2{
+    position: absolute;
+    top: 470px;
+    left: 1080px;
+    font-size: 25px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.place3 p{
+    position: absolute;
+    top: 515px;
+    left: 1035px;
+    width: 28%;
+    text-align: center;
+}
+.cost1{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    top: 660px;
+    left: 55px;
+    text-align: center;
+    background-color: rgb(106, 184, 5);
+    border-radius: 10px;
+}
+.cost1:hover{
+    transition: all 0.5s ease-out;
+    scale: 1.1;
+    background-color: rgb(77, 134, 3);
+}
+.cost1 h4{
+    font-size: 20px;
+    color: azure;
+    margin: 7px;
+    padding-top: 5px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.cost2{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    top: 660px;
+    left: 555px;
+    text-align: center;
+    background-color: rgb(106, 184, 5);
+    border-radius: 10px;
+}
+.cost2:hover{
+    transition: all 0.5s ease-out;
+    scale: 1.1;
+    background-color: rgb(77, 134, 3);
+}
+.cost2 h4{
+    font-size: 20px;
+    color: azure;
+    margin: 7px;
+    padding-top: 5px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.cost3{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    top: 660px;
+    left: 1055px;
+    text-align: center;
+    background-color: rgb(106, 184, 5);
+    border-radius: 10px;
+}
+.cost3:hover{
+    transition: all 0.5s ease-out;
+    scale: 1.1;
+    background-color: rgb(77, 134, 3);
+}
+.cost3 h4{
+    font-size: 19.9px;
+    color: azure;
+    margin: 7px;
+    padding-top: 5px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.contact{
+    background-image: url(./contact-page.jpg);
+    position: relative;
+    height: 100vh;
+    top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-wrapper{
+    background: rgba(19, 28, 39, 0.8);
+    width: 60%;
+    color: white;
+    border-radius: 20px;
+    top: 80px;
+    position: relative;
+}
+.form-head {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.name-form{
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.email-form {
+    font-size: 20px;
+    padding: 45px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form-wrapper input {
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+}
+.form-wrapper button {
+    width: 100%;
+    padding: 20px;
+    margin-top: 80px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(106, 184, 5, 0.96);
+    color: azure;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.form-wrapper button:hover{
+    background-color: rgb(77, 134, 3);
+    transition: all 0.5s ease-out;
+}
+
+
+
+
+
+
+  
+
+
+
+
+
