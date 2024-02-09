@@ -1,0 +1,1202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel+Decorative:wght@700&family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel+Decorative:wght@700&family=Crimson+Text:wght@600&family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel+Decorative:wght@700&family=Crimson+Text:wght@600&family=Domine:wght@700&family=Heebo&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    height: 1100px;
+    width: 100%;
+
+}
+.nav-1{
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
+.nav-2{
+    position: absolute;
+    left: 415px;
+    top: 10px;
+}
+.nav-3{
+    position: absolute;
+    left: 450px;
+    top: 10px;
+}
+.nav-4 {
+    position: absolute;
+    right: 115px;
+    top: 10px; 
+}
+.nav-4 svg{
+    margin-right: 40px;
+    /* right: 200px; */
+}
+.nav-4 a{
+    color: rgb(106, 184, 5);
+}
+.nav-bar{
+    position: fixed;
+    width: 80%;
+    height: 100px;
+    background-color: white;
+    left: 150px;
+    top: 50px;
+    z-index: 1000;
+    box-shadow: 0px 8px 15px 1px;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 5px;
+}
+.carousel-control-next-icon{
+    background-color: black;
+    border-radius: 5px;
+}
+.slider{
+    position: absolute;
+    top: 100px;
+}
+.container-fluid #navbar-brand{
+    font-size: 40px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    font-weight: 700;
+}
+.container-fluid #nav-linkactive{
+    position: absolute;
+    left: 700px;
+    font-weight: 600;
+    color: black;
+    font-size: large;
+    top: 25px;
+}
+.container-fluid #nav-link1{
+    position: absolute;
+    left: 790px; 
+    font-weight: 600;
+    color: black;  
+    font-size: large;
+    top: 25px;
+}
+.container-fluid #nav-link2{
+    position: absolute;
+    left: 880px;
+    font-weight: 600; 
+    color: black;  
+    font-size: large;
+    top: 25px;
+}
+.container-fluid #nav-link3{
+    position: absolute;
+    left: 985px;
+    font-weight: 600;  
+    color: black; 
+    font-size: large;
+    top: 25px;
+}
+.container-fluid #nav-link4{
+    position: absolute;
+    left: 1095px; 
+    font-weight: 600;  
+    color: black;
+    font-size: large;
+    top: 25px;
+}
+#navbar-brand::after{
+    content: "ER";
+    color: rgb(106, 184, 5);
+}
+#nav-linkactive:hover{
+    transition: all 0.5s ease-out;
+    color: rgb(106, 184, 5);
+}
+#nav-link1:hover{
+    transition: all 0.5s ease-out;
+    color: rgb(106, 184, 5);
+}
+#nav-link2:hover{
+    transition: all 0.5s ease-out;
+    color: rgb(106, 184, 5);
+}
+#nav-link3:hover{
+    transition: all 0.5s ease-out;
+    color: rgb(106, 184, 5);
+}
+#nav-link4:hover{
+    transition: all 0.5s ease-out;
+    color: rgb(106, 184, 5);
+}
+.booking{
+    position: relative;
+    top: 500px;
+    left: 730px;
+    scale: 1.5;  
+    width: fit-content;
+}
+.booking button{
+    background-color: rgb(106, 184, 5);
+    padding: 5px;
+    border: 1px rgb(106, 184, 5);
+}
+.text h3{
+    font-size: 25px;
+    left: 650px;
+    top: 250px;
+    position: absolute;
+    color: azure;
+    font-weight: 700;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.text h1{
+    position: absolute;
+    top: 300px;
+    font-size: 60px;
+    left: 320px;
+    width: 60%;
+    font-weight: 650;
+    color: azure;
+    font-variant: small-caps;
+    text-align: center;
+}
+.text h2{
+    font-variant: small-caps;
+    position: absolute;
+    top: 375px;
+    font-size: 60px;
+    left: 480px;
+    font-weight: 650;
+    color: azure;
+    text-align: center;
+}
+.carousel-inner{
+    opacity: 0.5;
+}
+.slider{
+    background-color: black;
+}
+.nav-bar2{
+    position: absolute;
+    top: 810px;
+    left: 150px;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 8px 15px 1px;
+    display: flex;
+    justify-content: center;  
+    justify-content: space-around;
+}
+.nav-bar2 input{
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-bar2 select{
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+.submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about{
+    position: relative;
+    height: 800px ;
+    width: 100%;
+}
+.traveller img{
+    height: 650px;
+    width: 550px;
+    position: relative;
+    top: 180px;
+    left: 150px;
+}
+.about-us{
+    background-color: azure;
+    height: 550px;
+    width: 800px;
+    position: relative;
+    left: 570px;
+    top: -420px;
+}
+.about-us h4{
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    color: rgb(106, 184, 5);
+    font-family: 'Crimson Text', sans-serif; 
+    font-size: 25px;
+}
+.about-us h2{
+    position: absolute;
+    left: 50px;
+    font-family: 'Domine', sans-serif; 
+    top: 55px;
+    font-size: 50px;
+    width: 80%;
+}
+.about-us p{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    width: 85%;
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-us img{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 245px;
+    left: 30px;
+    margin: 20px;  
+}
+.about-us button{
+    background-color: rgb(106, 184, 5);
+    /* padding: 5px; */
+    border: 1px rgb(106, 184, 5);
+    top: 480px;
+    position: absolute;
+    left: 50px;
+}
+.content{
+    position: relative;
+    top: 80px;
+    height: 200px;
+    width: 94.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    top: 2px;
+    width: 110px;
+    height: 110px;
+    border: 2px solid;
+    left: 20px;
+    position: relative;
+    background-color: rgb(106, 184, 5);
+}
+.first svg{
+    margin: 30px;
+    color: azure;
+}
+.text1{
+    width: 18%;
+    position: relative;
+    left: 10px;
+}
+.text1 h4{
+    font-size: 22.4px;
+    font-family: 'Cinzel Decorative', sans-serif;
+    width: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(20) infinite;
+}
+.second{
+    top: 2px;
+    width: 110px;
+    height: 110px;
+    border: 2px solid;
+    position: relative;
+    background-color: rgb(106, 184, 5);
+}
+.second svg{
+    margin: 30px;
+    color: azure;
+}
+.text2{
+    width: 24%;
+    position: relative;
+    left: -5px;
+}
+.text2 h4{
+    font-size: 22.4px;
+    font-family: 'Cinzel Decorative', sans-serif;
+    width: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(20) infinite;
+}
+.third{
+    top: 2px;
+    width: 110px;
+    height: 110px;
+    border: 2px solid;
+    position: relative;
+    background-color: rgb(106, 184, 5);
+    left: -20px;
+}
+.third svg{
+    margin: 30px;
+    color: azure;
+}
+.text3{
+    width: 24%;
+    position: relative;
+    left: -25px;
+}
+.text3 h4{
+    font-size: 22.4px;
+    font-family: 'Cinzel Decorative', sans-serif;
+    width: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(20) infinite;
+}
+@keyframes typing {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+.arrow{
+    position: fixed;
+    height: 45px;
+    width: 38px;
+    background-color: rgb(106, 184, 5);
+    margin-right: 20px;
+    margin-top: 65px;
+    right: -8px;
+    top: 500px;
+}
+.arrow svg{
+    margin: 7px;
+    color: azure;
+}
+.services{
+    top: 150px;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.card {
+    width: 33%;
+    top: 120px;
+    text-align: center;
+    margin: 60px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);  
+}
+.card img {
+  width: 60px;
+  margin: 30px;
+}
+.card h3{
+    font-family: 'Cinzel Decorative', sans-serif;
+    margin: 20px;
+}
+.card p{
+    margin: 10px;
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-icon {
+  background: rgb(89, 151, 7);
+}
+.packages{
+    top: 300px;
+    position: relative;
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.package{
+    margin-top: 180px;
+    height: 600px;
+    width: 30%;
+}
+.package img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 130px;
+    margin-top: 50px;
+    animation: jump 2s ease-in infinite alternate;
+}
+@keyframes jump {
+    from{
+        margin-top: 50px;
+    }
+    to{
+        margin-top: 15px;
+    }   
+}
+.place1 h2{
+    position: absolute;
+    top: 470px;
+    left: 55px;
+    font-size: 25px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.place1 p{
+    position: absolute;
+    top: 515px;
+    left: 37px;
+    width: 28%;
+    text-align: center;
+}
+.place2 h2{
+    position: absolute;
+    top: 470px;
+    left: 610px;
+    font-size: 25px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.place2 p{
+    position: absolute;
+    top: 515px;
+    left: 535px;
+    width: 28%;
+    text-align: center;
+}
+.place3 h2{
+    position: absolute;
+    top: 470px;
+    left: 1080px;
+    font-size: 25px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.place3 p{
+    position: absolute;
+    top: 515px;
+    left: 1035px;
+    width: 28%;
+    text-align: center;
+}
+.cost1{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    top: 660px;
+    left: 55px;
+    text-align: center;
+    background-color: rgb(106, 184, 5);
+    border-radius: 10px;
+}
+.cost1:hover{
+    transition: all 0.5s ease-out;
+    scale: 1.1;
+    background-color: rgb(77, 134, 3);
+}
+.cost1 h4{
+    font-size: 20px;
+    color: azure;
+    margin: 7px;
+    padding-top: 5px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.cost2{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    top: 660px;
+    left: 555px;
+    text-align: center;
+    background-color: rgb(106, 184, 5);
+    border-radius: 10px;
+}
+.cost2:hover{
+    transition: all 0.5s ease-out;
+    scale: 1.1;
+    background-color: rgb(77, 134, 3);
+}
+.cost2 h4{
+    font-size: 20px;
+    color: azure;
+    margin: 7px;
+    padding-top: 5px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.cost3{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    top: 660px;
+    left: 1055px;
+    text-align: center;
+    background-color: rgb(106, 184, 5);
+    border-radius: 10px;
+}
+.cost3:hover{
+    transition: all 0.5s ease-out;
+    scale: 1.1;
+    background-color: rgb(77, 134, 3);
+}
+.cost3 h4{
+    font-size: 19.9px;
+    color: azure;
+    margin: 7px;
+    padding-top: 5px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.contact{
+    background-image: url(./contact-page.jpg);
+    position: relative;
+    height: 100vh;
+    top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-wrapper{
+    background: rgba(19, 28, 39, 0.8);
+    width: 60%;
+    color: white;
+    border-radius: 20px;
+    top: 80px;
+    position: relative;
+}
+.form-head {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.name-form{
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.email-form {
+    font-size: 20px;
+    padding: 45px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form-wrapper input {
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+}
+.form-wrapper button {
+    width: 100%;
+    padding: 20px;
+    margin-top: 80px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(106, 184, 5, 0.96);
+    color: azure;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Cinzel Decorative', sans-serif;
+}
+.form-wrapper button:hover{
+    background-color: rgb(77, 134, 3);
+    transition: all 0.5s ease-out;
+}
+
+
+@media screen and (max-width: 1440px) and (min-width: 1301px) {
+    .nav-bar {
+        width: 80%;    
+    }
+
+    .container-fluid #navbar-brand {
+        left: 30px;
+    }
+
+    .container-fluid #nav-linkactive,
+    .container-fluid #nav-link1,
+    .container-fluid #nav-link2,
+    .container-fluid #nav-link3,
+    .container-fluid #nav-link4 {
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1151px) {
+    .nav-bar {
+        width: 78%;
+    }
+    .container-fluid #nav-linkactive,
+    .container-fluid #nav-link1,
+    .container-fluid #nav-link2,
+    .container-fluid #nav-link3,
+    .container-fluid #nav-link4 {
+        margin-left: -120px;
+    }
+    .slider{
+        width: 111%;
+    }
+    .text h1{
+        left: 400px;
+    }
+    .nav-4{
+        right: -20px;
+    }
+    .nav-bar2{
+        left: 190px;
+    }
+    .home{
+        width: 111%;
+    }
+    body{
+        width: 100%;
+    }
+    .about{
+        width: 111%;
+    }
+    .content{
+        width: 111%;
+    }
+    .services{
+        width: 111%;
+    }
+    .packages{
+        width: 110%;
+    }
+    .packages img{
+        margin-left: 110px;
+    }
+    .packages p{
+        width: 25%;
+    }
+    .place1 h2{
+        left: 35px;
+    }
+    .place1 p{
+        left: 50px;
+    }
+    .place2 h2{
+        left: 550px;
+    }
+    .place2 p{
+        left: 520px;
+    }
+    .place3 h2{
+        width: 25%;
+        left: 990px;
+    }
+    .place3 p{
+        left: 980px;
+    }
+    .cost1{
+        left: 150px;
+    }
+    .cost2{
+        left: 620px;
+    }
+    .cost3{
+        left: 1070px;
+    }
+    .contact{
+        width: 111%;
+        height: 115vh;
+    }
+}
+
+@media (max-width: 1150px) and (min-width: 1024px) {
+    .home{
+        width: 133%;
+    }
+    .nav-bar {
+        width: 90%;
+        left: 65px; 
+    }
+    .nav-4{
+        right: -230px;
+    }
+    .nav-bar2{
+        margin-left: -10px;
+    }
+    .slider{
+        width: 133.8%;
+    }
+    .text h1{
+        left: 440px;
+    }
+    .text h3{
+        left: 620px;
+    }
+    .booking button{
+        margin-left: -15px;
+    }
+    .text h2{
+        left: 230px;
+        width: 100%;
+    }
+    .nav-bar2{
+        left: 300px;
+    }
+    .content{
+        width: 130%;
+    }
+    .services{
+        width: 130%;
+    }
+    .packages{
+        width: 131%;
+    }
+    .packages p{
+        width: 25%;
+    }
+    .place1 h2{
+        left: 35px;
+    }
+    .place1 p{
+        left: 50px;
+    }
+    .place2 h2{
+        left: 550px;
+    }
+    .place2 p{
+        left: 520px;
+    }
+    .place3 h2{
+        width: 25%;
+        left: 990px;
+    }
+    .place3 p{
+        left: 980px;
+    }
+    .cost1{
+        left: 150px;
+    }
+    .cost2{
+        left: 620px;
+    }
+    .cost3{
+        left: 1070px;
+    }
+    .contact{
+        width: 133.8%;
+        height: 115vh;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 750px) {
+    .home{
+        width: 180%;
+    }
+    .nav-bar {
+        width: 90%;
+        left: 65px; 
+    }
+    .nav-4{
+        right: -480px;
+    }
+    .nav-bar2{
+        width: 120%;
+        left: 230px;
+    }
+    .slider{
+        width: 180%;
+    }
+    .text h1{
+        left: 490px;
+    }
+    .text h3{
+        left: 600px;
+        width: 50%;
+    }
+    .booking button{
+        margin-left: -35px;
+    }
+    .text h2{
+        left: 410px;
+        width: 80%;
+    }
+    .content{
+        width: 175%;
+    }
+    .services{
+        width: 180%;
+    }
+    .packages{
+        width: 178%;
+    }
+    .packages p{
+        width: 25%;
+    }
+    .place1 h2{
+        left: 35px;
+    }
+    .place1 p{
+        left: 50px;
+    }
+    .place2 h2{
+        left: 550px;
+    }
+    .place2 p{
+        left: 520px;
+    }
+    .place3 h2{
+        width: 25%;
+        left: 990px;
+    }
+    .place3 p{
+        left: 980px;
+    }
+    .package img{
+        margin-left: 115px;
+    }
+    .cost1{
+        left: 150px;
+    }
+    .cost2{
+        left: 620px;
+    }
+    .cost3{
+        left: 1070px;
+    }
+    .contact{
+        width: 180%;
+        height: 115vh;
+    }
+}
+@media (max-width: 749px) and (min-width: 400px) {
+    .home{
+        width: 322%;
+    }
+    .nav-bar {
+        width: 90%;
+        left: 65px; 
+    }
+    .nav-4{
+        right: -800px;
+    }
+    .nav-bar2{
+        width: 210%;
+        left: 240px;
+    }
+    .slider{
+        width: 322%;
+    }
+    .text h1{
+        left: 505px;
+        width: 100%;
+    }
+    .text h3{
+        left: 600px;
+        width: 80%;
+    }
+    .booking button{
+        margin-left: -40px;
+    }
+    .text h2{
+        left: 410px;
+        width: 140%;
+    }
+    .content{
+        width: 322%;
+    }
+    .services{
+        width: 322%;
+    }
+    .packages{
+        width: 322%;
+    }
+    .packages p{
+        width: 25%;
+    }
+    .place1 h2{
+        left: 35px;
+    }
+    .place1 p{
+        left: 50px;
+    }
+    .place2 h2{
+        left: 550px;
+    }
+    .place2 p{
+        left: 520px;
+    }
+    .place3 h2{
+        width: 25%;
+        left: 990px;
+    }
+    .place3 p{
+        left: 980px;
+    }
+    .package img{
+        margin-left: 115px;
+    }
+    .cost1{
+        left: 150px;
+    }
+    .cost2{
+        left: 620px;
+    }
+    .cost3{
+        left: 1070px;
+    }
+    .contact{
+        width: 322%;
+        height: 115vh;
+    }
+}
+@media (max-width: 655px) and (min-width: 645px) and (max-height: 430px) {
+    .home{
+        width: 322%;
+    }
+    .nav-bar {
+        width: 90%;
+        left: 100px; 
+    }
+    .nav-4{
+        right: -1240px;
+    }
+    .nav-item a{
+        margin-left: 670px;
+    }
+    .nav-bar2{
+        width: 220%;
+        left: 340px;
+    }
+    .slider{
+        width: 322%;
+    }
+    .text h1{
+        left: 750px;
+        width: 100%;
+    }
+    .text h3{
+        left: 955px;
+        width: 80%;
+    }
+    .booking button{
+        margin-left: 250px;
+    }
+    .text h2{
+        left: 600px;
+        width: 140%;
+    }
+    .content{
+        width: 300%;
+    }
+    .services{
+        width: 322%;
+    }
+    .packages{
+        width: 322%;
+    }
+    .packages p{
+        width: 25%;
+    }
+    .place1 h2{
+        left: 120px;
+    }
+    .place1 p{
+        left: 50px;
+    }
+    .place2 h2{
+        left: 880px;
+    }
+    .place2 p{
+        left: 760px;
+    }
+    .place3 h2{
+        width: 25%;
+        left: 1550px;
+    }
+    .place3 p{
+        left: 1450px;
+    }
+    .package img{
+        margin-left: 190px;
+    }
+    .cost1{
+        left: 230px;
+    }
+    .cost2{
+        left: 960px;
+    }
+    .cost3{
+        left: 1630px;
+    }
+    .contact{
+        width: 322%;
+        height: 180vh;
+    }
+}
+
+@media (max-width: 399px) and (min-width: 370px){
+    .home{
+        width: 364%;
+    }
+    .nav-bar {
+        width: 90%;
+        left: 65px; 
+    }
+    .nav-4{
+        right: -800px;
+    }
+    .nav-bar2{
+        width: 240%;
+        left: 240px;
+    }
+    .slider{
+        width: 365%;
+    }
+    .text h1{
+        left: 505px;
+        width: 120%;
+    }
+    .text h3{
+        left: 600px;
+        width: 80%;
+    }
+    .booking button{
+        margin-left: -40px;
+    }
+    .text h2{
+        left: 420px;
+        width: 160%;
+    }
+    .content{
+        width: 360%;
+    }
+    .services{
+        width: 364%;
+    }
+    .packages{
+        width: 364%;
+    }
+    .packages p{
+        width: 25%;
+    }
+    .place1 h2{
+        left: 35px;
+    }
+    .place1 p{
+        left: 50px;
+    }
+    .place2 h2{
+        left: 550px;
+    }
+    .place2 p{
+        left: 520px;
+    }
+    .place3 h2{
+        width: 25%;
+        left: 990px;
+    }
+    .place3 p{
+        left: 980px;
+    }
+    .package img{
+        margin-left: 115px;
+    }
+    .cost1{
+        left: 150px;
+    }
+    .cost2{
+        left: 620px;
+    }
+    .cost3{
+        left: 1070px;
+    }
+    .contact{
+        width: 364%;
+        height: 115vh;
+    }
+}
+@media (max-width: 369px) and (min-width: 315px){
+    .home{
+        width: 400%;
+    }
+    .nav-bar {
+        width: 90%;
+        left: 65px; 
+    }
+    .nav-1{
+        width:80%;
+    }
+    .nav-3{
+        width: 80%;
+    }
+    .nav-4{
+        right: -800px;
+    }
+    .nav-item a{
+        margin-left: -70px;
+    }
+    .nav-bar2{
+        width: 260%;
+        left: 230px;
+    }
+    .slider{
+        width: 400%;
+    }
+    .text h1{
+        left: 420px;
+        width: 150%;
+    }
+    .text h3{
+        left: 540px;
+        width: 80%;
+    }
+    .booking button{
+        margin-left: -90px;
+    }
+    .text h2{
+        left: 350px;
+        width: 200%;
+    }
+    .content{
+        width: 400%;
+    }
+    .about-us{
+        width: 210%;
+    }
+    .about-us h2{
+        font-size: 40px;
+    }
+    .about-us p{
+        top: 160px;
+    }
+    .services{
+        width: 400%;
+    }
+    .packages{
+        width: 362%;
+    }
+    .packages p{
+        width: 25%;
+    }
+    .place1 h2{
+        left: 30px;
+    }
+    .place1 p{
+        left: 35px;
+        width: 33%;
+    }
+    .place2 h2{
+        left: 490px;
+    }
+    .place2 p{
+        left: 450px;
+        width: 31%;
+    }
+    .place3 h2{
+        width: 30%;
+        left: 860px;
+    }
+    .place3 p{
+        left: 860px;
+        width: 28%;
+    }
+    .package img{
+        margin-left: 115px;
+    }
+    .cost1{
+        left: 160px;
+    }
+    .cost2{
+        left: 560px;
+    }
+    .cost3{
+        left: 950px;
+    }
+    .contact{
+        width: 400%;
+        height: 115vh;
+    }
+}
